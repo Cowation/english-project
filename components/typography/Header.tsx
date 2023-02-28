@@ -24,7 +24,7 @@ export default function Header({ text }: { text: string }) {
         <span className="bg-lime text-black">{firstChar}</span>
         {restOfText}
       </motion.h1>
-      <hr className="border-2 border-lime" />
+      <hr className="border-2 border-lime self-stretch" />
     </>
   );
 }
